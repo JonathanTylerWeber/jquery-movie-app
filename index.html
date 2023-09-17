@@ -9,8 +9,21 @@
 </head>
 
 <body>
-
-
+    <h1 class="centered">Movie Ratings</h1>
+    <form>
+        <h2 class="centered">Enter a movie title:</h2>
+        <input type="text" class="text" id="title" />
+        <h2 class="centered">Enter a rating 1-10</h2>
+        <input type="text" class="text" id="rating" />
+        <br>
+        <input type="button" class="button" id="submit" value="submit" />
+    </form>
+    <br>
+    <button id="sortAlphabetically">Sort Alphabetically</button>
+    <button id="sortByRating">Sort by Rating</button>
+    <ul id="movie-list">
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="app.js"></script>
 </body>
 

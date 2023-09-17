@@ -1,0 +1,27 @@
+.centered {
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    width: 60%;
+}
+
+#submit {
+    width: 8em;
+}
+
+li {
+    text-align: center;
+    margin: 10px 0;
+    list-style: none;
+}
+
+.delete {
+    display: inline-block;
+    margin-left: 20px;
+}
